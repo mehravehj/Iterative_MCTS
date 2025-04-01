@@ -39,5 +39,7 @@ To split CIFAR datsets before conversion, run:
    ```
 
 ### Experiments
+Use main.py to run experiments. See Readme file for more details.
+
 
   
