@@ -7,7 +7,7 @@ The repository structure is as follows:
   * `figures/`, contains all figures represented in the paper
 
 
-`experiments/Pooling Experiments/` contains: 
+`Experiments/Pooling Experiments/` contains: 
   * contains code for CIFAR10 experiments in [Pooling benchmark](https://proceedings.mlr.press/v224/roshtkhari23a/roshtkhari23a.pdf)
 
 ## Getting Started
