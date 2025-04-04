@@ -8,38 +8,23 @@ The repository structure is as follows:
 
 
 `Experiments/Pooling Experiments/` contains: 
-  * contains code for CIFAR10 experiments in [Pooling benchmark](https://proceedings.mlr.press/v224/roshtkhari23a/roshtkhari23a.pdf)
+  * contains code for Tory examples experiments in [Pooling benchmark](https://proceedings.mlr.press/v224/roshtkhari23a/roshtkhari23a.pdf)
 
 ## Getting Started
 ### Install
-For our experimetns we used Python3.9 as it is compatible with FFCV library. To install requiremetns, please use one of the two ways:
+To run the code Python 3.8+ is needed. To install requiremetns, please run:
 
    ```bash
    $ pip install -r requirements.txt
    ```
-Or:
-   ```bash
-$ conda create -n ffcv2 python==3.9
-$ conda activate ffcv2
-$ pip install -r requirements.txt
-   ```
+
+Install PyTorch: Before installing the requirements, install the correct PyTorch version for your system (specific CUDA version).
 
 ### Dataset Preperation
-For our experimetns, we converted data to [FFCV](https://ffcv.io/) format. For NAS methods presented in this paper, training datasets are split 50/50:
-
-   * For cifar datasets experiments (assuming in respective dirctory such as `cifar/resnet18/`), to download and convert them for CIFAR100 run:
-
-   ```bash
-   $ ./write_cifar.sh
-   ```
-To split CIFAR datsets before conversion, run:
-
-   ```bash
-   $ ./write_cifar_50.sh
-   ```
+For the code, we used a toy exaple for dataset To run fro CIFAR10, first the training dataset needs to be split 50/50 to provide training/validation. 
 
 ### Experiments
-Use main.py to run experiments. See Readme file for more details.
+Use main.py to run experiments.
 
 
   
