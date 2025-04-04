@@ -1,0 +1,12 @@
+# Scientific computing libraries
+numpy>=1.21
+scipy>=1.8
+
+# Computer vision library
+# Ensure this version is compatible with your PyTorch version
+torchvision>=0.14
+
+# NOTE: PyTorch installation is omitted here because it's highly
+# dependent on system (CPU/GPU, CUDA version).
+# Please install PyTorch separately first by following the official
+# instructions on the PyTorch website: https://pytorch.org/
