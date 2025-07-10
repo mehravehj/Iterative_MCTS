@@ -2,6 +2,13 @@
 
 This repository contains the release of PyTorch code to replicate main results on CIFAR-10, figures and tabels presented in the paper: "Iterative Monte Carlo Tree Search for Neural Architecture Search"
 
+<p align="center" width="100%">
+    <img width="33%" src="[https://i.sstatic.net/RJj4x.png](https://github.com/user-attachments/assets/d1faee95-ae3b-4566-92f3-fbdb1814a92e)">
+</p>
+
+![iterative_NAS](https://github.com/user-attachments/assets/d1faee95-ae3b-4566-92f3-fbdb1814a92e)
+
+
 The repository structure is as follows:
   * `requirements.txt`, contains all required libraries
   * `figures/`, contains all figures represented in the paper
