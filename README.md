@@ -1,6 +1,6 @@
 # Iterative MCTS for NAS
 
-This repository contains the release of PyTorch code to replicate main results on CIFAR-10, figures and tabels presented in the paper: "Iterative Monte Carlo Tree Search for Neural Architecture Search". For a summary of the paper see the ![blog post](https://automl.space/automl25-iterative-monte-carlo-tree-search-for-nas/).
+This repository contains the release of PyTorch code to replicate main results on CIFAR-10, figures and tabels presented in the paper: "Iterative Monte Carlo Tree Search for Neural Architecture Search". For a summary of the paper see the [blog post](https://automl.space/automl25-iterative-monte-carlo-tree-search-for-nas/).
 
 <p align="center" width="100%">
     <img width="33%" src="[https://i.sstatic.net/RJj4x.png](https://github.com/user-attachments/assets/d1faee95-ae3b-4566-92f3-fbdb1814a92e)">
